@@ -29,5 +29,5 @@ export default function LazyLoader({ src, width, height }) {
     };
   }, [ref]);
 
-  return <img ref={ref} width={width} height={height} alt="" />;
+  return <img ref={ref} width={width} height={height} alt="" style={{padding:"3px"}} />;
 }

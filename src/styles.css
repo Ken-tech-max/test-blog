@@ -14,11 +14,15 @@
 }
 
 .wrapper {
-  width: 450px;
+  width: 600px;
 }
 
 .wrapper article {
   width: 100%;
+}
+
+body {
+  margin: 0;
 }
 
 h1 {
@@ -31,4 +35,9 @@ h3 {
 
 img {
   border: none;
+}
+
+
+a {
+  text-decoration: none;
 }
